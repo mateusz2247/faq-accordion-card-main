@@ -1,0 +1,45 @@
+@media (max-width: 450px) {
+	html {
+		font-size: 9px;
+	}
+	.bg-pattern-desktop,
+	.illustration-box-desktop,
+	.illustration-woman-online-desktop {
+		display: none;
+	}
+	#app {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		height: 60rem;
+	}
+	.illustration-woman-online-mobile {
+		display: flex;
+		position: absolute;
+		bottom: 1rem;
+	}
+
+	h1 {
+		text-align: center;
+		padding: 0rem;
+	}
+	.ilustartionContainer {
+		overflow: visible;
+		height: 10rem;
+	}
+
+	.faqContainer {
+		width: 85%;
+	}
+
+	.faqList,
+	li {
+		padding: 0rem;
+	}
+	.questionText {
+		font-size: 1.5rem;
+	}
+	.answerActive {
+		font-size: 1.4rem;
+	}
+}

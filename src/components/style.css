@@ -1,0 +1,128 @@
+html {
+	font-size: 15px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+	font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+	background: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#app {
+	background-color: #fff;
+	width: 52rem;
+	height: 30rem;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.ilustartionContainer {
+	width: 26rem;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.bg-pattern-desktop {
+	width: 50rem;
+	position: absolute;
+	right: 3rem;
+}
+.illustration-woman-online-desktop {
+	position: absolute;
+
+	right: 10%;
+}
+.illustration-box-desktop {
+	position: absolute;
+	left: -8rem;
+	bottom: 4rem;
+}
+
+.faqContainer {
+	width: 26rem;
+	height: 100%;
+}
+h1 {
+	font-weight: 700;
+	font-size: 2rem;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+}
+ul {
+	list-style-type: none;
+	padding-right: 1rem;
+}
+li {
+	border-bottom: 2px solid gainsboro;
+	padding-right: 2rem;
+}
+
+.questionText {
+	font-weight: 400;
+	color: hsl(237deg, 12%, 33%);
+}
+
+.questionText:hover {
+	cursor: pointer;
+	color: hsl(14deg, 88%, 65%);
+}
+
+.arrowButton {
+	border: none;
+	float: right;
+	cursor: pointer;
+    background-color: inherit;
+}
+
+
+
+.clicked {
+	font-weight: bolder;
+	color: hsl(238deg, 29%, 16%);
+}
+
+.rotateButton {
+	rotate: 180deg;
+}
+
+
+.answer {
+	display: none;
+}
+.answerActive {
+	font-size: 0.9rem;
+	display: block;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.rotateButton {
+	rotate: 180deg;
+}
+.illustration-woman-online-mobile{
+    display: none;
+}
